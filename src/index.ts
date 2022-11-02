@@ -79,7 +79,7 @@ const renderElement = async (element: HTMLElement, opts: Partial<Options>): Prom
         ignoreElements: opts.ignoreElements,
         inlineImages: foreignObjectRendering,
         copyStyles: foreignObjectRendering,
-        hide_selector: opts.hide_selector,
+        hide_element_by_selector: opts.hide_element_by_selector,
         masked_class: opts.masked_class
     };
 
