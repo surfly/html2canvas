@@ -1,4 +1,5 @@
-/dist
+dist/**
+!dist/html2canvas.min.js
 /tmp
 /build
 /nbproject/
